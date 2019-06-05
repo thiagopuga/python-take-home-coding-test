@@ -29,21 +29,25 @@ font = {'family': 'monospace',
 # utilizar fonte definida
 matplotlib.rc('font', **font)
 
+# função utilizada para se conectar ao cliente do mongodb
 def connectToClient(databaseURL):
         # conectar cliente mongodb
         client = pymongo.MongoClient(databaseURL)
         return client
 
+# função utilizada para criar ou usar um banco de dados já existente
 def openDatabase(databaseName):
         # criar/usar banco de dados
         database = client[databaseName]
         return database
 
+# função utilizada para criar ou usar uma coleção já existente
 def openCollection(collectionName):
         # criar/usar coleção
         collection = database[collectionName]
         return collection
 
+# função utilizada para excluir a coleção caso ela já existente (debug)
 def deleteCollection(collection, collectionName):
         # caso coleção esteja com dados
         if collection.count_documents({}) > 0:
@@ -55,6 +59,7 @@ def deleteCollection(collection, collectionName):
                 print('DEBUG - collection deleted')
                 print('\n')
 
+# função utilizada para criar o gráfico utilizado na página html
 def buildGraph(aggregation):
         # inicializar eixos
         axisX = list()
@@ -72,7 +77,7 @@ def buildGraph(aggregation):
         # definir tamanho do gráfico
         plt.figure(figsize = (12, 6))
         # adicionar título
-        plt.suptitle('Task 4 - Recent Change Stream Graph', fontsize = 16)
+        plt.suptitle('Task 4 - Recent Change Stream Graph (REFS 5s)', fontsize = 16)
         # adicionar valores
         plt.plot(axisX, axisY)
         # adicionar legendas
@@ -85,8 +90,7 @@ def buildGraph(aggregation):
         # fechar gráfico
         plt.close()
 
-
-# main code
+# código principal
 
 # criar/usar arquivo json
 fileJSON = open(jsonName, 'w')

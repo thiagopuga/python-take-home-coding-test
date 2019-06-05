@@ -8,7 +8,7 @@ Seguir passos da instalação
 
 --------------------------------------------------------------
 
-2 - Pip
+2 - pip 19.1.1
 
 Fonte: https://pypi.org/project/pip/
 
@@ -17,7 +17,7 @@ cmd > get-pip.py (incluido na pasta do projeto)
 
 --------------------------------------------------------------
 
-3 - http Server Sent Event (SSE)
+3 - sseclient 0.0.24
 
 Fonte: https://pypi.org/project/sseclient/
 
@@ -36,9 +36,9 @@ Seguir passos da instalação
 
 --------------------------------------------------------------
 
-5 - PyMongo 3.8.0
+5 - pymongo 3.8.0
 
-Fonte: http://api.mongodb.com/python/current/installation.html
+Fonte: https://pypi.org/project/pymongo/
 
 Para Windows:
 cmd > pip install pymongo
