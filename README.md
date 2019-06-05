@@ -41,12 +41,4 @@ Here is the API I've be using:
 5. pymongo 3.8.0
 6. matplotlib 3.1.0
 
-## Resources
-Wikipedia Recent Events:
-- https://stream.wikimedia.org/v2/stream/recentchange
-- https://wikitech.wikimedia.org/wiki/Event_Platform/EventStreams
-- https://stream.wikimedia.org/?doc#!/Streams/get_v2_stream_recentchange
-- RCFeed Schema: https://www.mediawiki.org/wiki/Manual:RCFeed
-- MarkDown: https://daringfireball.net/projects/markdown/
-
 Thank you!
