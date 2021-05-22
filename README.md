@@ -1,6 +1,5 @@
 # Python Take Home Coding Test
-
-The project consists of a data pipeline to monitor, store and view the flow of recent events change from Wikipedia.
+The project consists of a data pipeline to monitor, store, and view the flow of recent events change from Wikipedia.
 The approach chosen was a Python script, along with the MongoDB database and an HTML page.
 
 ## Documentation
