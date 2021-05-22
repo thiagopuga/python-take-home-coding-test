@@ -1,55 +1,37 @@
+--------------------------------------------------------------------------
 
 1 - Python 3.7.3
-
 Fonte: https://www.python.org/downloads/
+Instal. no Windows: seguir passos da instalação
 
-Para Windows:
-Seguir passos da instalação
-
---------------------------------------------------------------
+--------------------------------------------------------------------------
 
 2 - pip 19.1.1
-
 Fonte: https://pypi.org/project/pip/
+Instal. no Windows: cmd > python get-pip.py (incluido na pasta do projeto)
 
-Para Windows:
-cmd > get-pip.py (incluido na pasta do projeto)
-
---------------------------------------------------------------
+--------------------------------------------------------------------------
 
 3 - sseclient 0.0.24
-
 Fonte: https://pypi.org/project/sseclient/
+Instal. no Windows: cmd > pip install sseclient
 
-Para Windows:
-cmd > pip install sseclient
-
---------------------------------------------------------------
-
+--------------------------------------------------------------------------
 
 4 - MongoDB Compass Community 4.0.10
-
 Fonte: https://www.mongodb.com/download-center/community
+Instal. no Windows: seguir passos da instalação
 
-Para Windows:
-Seguir passos da instalação
-
---------------------------------------------------------------
+--------------------------------------------------------------------------
 
 5 - pymongo 3.8.0
-
 Fonte: https://pypi.org/project/pymongo/
+Instal. no Windows: cmd > pip install pymongo
 
-Para Windows:
-cmd > pip install pymongo
-
---------------------------------------------------------------
+--------------------------------------------------------------------------
 
 6 - matplotlib 3.1.0
-
 Fonte: https://pypi.org/project/matplotlib/
+Instal. no Windows: cmd > pip install matplotlib
 
-Para Windows:
-cmd > pip install matplotlib
-
---------------------------------------------------------------
+--------------------------------------------------------------------------
